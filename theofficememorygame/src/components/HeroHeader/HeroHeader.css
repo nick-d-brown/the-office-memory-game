@@ -1,0 +1,17 @@
+.title {
+ position: relative;
+ text-align: center;
+ background-color: black;
+ background-image: url(http://wallpapercave.com/wp/TzghQg3.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: bottom;
+ height: 570px;
+ width: 100%;
+}
+
+.hero-content {
+  color: white;
+  position: relative; 
+  top: 50px;
+}

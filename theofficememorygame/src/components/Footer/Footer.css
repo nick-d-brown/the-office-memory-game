@@ -1,0 +1,40 @@
+.footbar {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    margin-top: 80px;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1000;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.799);
+}
+
+.footer-links {
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    padding: 5px;
+    text-align: center;
+}
+
+.anchor-link:hover {
+    text-decoration: none;
+    color: rgba(201, 200, 200, 0.986);
+    border: solid 2px rgba(201, 200, 200, 0.986);
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
