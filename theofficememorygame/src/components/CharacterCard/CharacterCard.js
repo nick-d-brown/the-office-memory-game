@@ -6,7 +6,6 @@ const CharacterCard = props => (
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
-    {/* <span  onClick={() => props.deleteCharacter(props.id)} className="remove"></span> */}
   </div>
 );
 

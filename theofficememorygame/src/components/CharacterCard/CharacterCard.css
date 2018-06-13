@@ -8,6 +8,10 @@
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
+.card:hover {
+box-shadow: 0 15px 18px #999, 0 15px 18px #999;
+transform: scale(1.1);
+}
 
 .card > .img-container {
   height: 100%;

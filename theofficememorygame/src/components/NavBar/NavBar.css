@@ -14,8 +14,8 @@
 .navbar .logo {
   margin: 10px;
   width: 450px;
-  background-color: red;
-  color: white;
+  background:white;
+  color: Black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,19 +36,13 @@
 .navbar .score {
   margin: 10px;
   width: 450px;
-  background-color: blue;
-  color: white;
+  background:white;
+  color: Black;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-   display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 1.5rem;
   text-align: center;
-}
-.navbar .score p{
-  /* margin: 10px;
-  padding: 0 25px; */
-
 }

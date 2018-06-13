@@ -33,9 +33,9 @@ class App extends React.Component {
   scoreChecker = id => {
     let character = this.state.clickedCharacters;
     if (character.length !== 0 && character.indexOf(id) !== -1) {
-        this.setState({clickedCharacters:[]});
-        this.setState({score:0});
-        this.setState({navMessage:"Incorrect guess!"});
+        this.setState({clickedCharacters:[],
+                       score:0,
+                       navMessage:"Incorrect guess!"});
     } else {
       // Lag but no set state issue
       //    let updatedScore = this.state.score;
@@ -43,10 +43,10 @@ class App extends React.Component {
 
       // No Lag but has error ---
       // Do not mutate state directly. Use setState()  react/no-direct-mutation-state
-      this.setState({score: this.state.score+=1}) ;
       character.push(id);
-      this.setState({navMessage:"Correct!"});
-      this.setState({clickedCharacters: character});
+      this.setState({score: this.state.score+=1,
+                     navMessage:"Correct!",
+                     clickedCharacters: character});
 
       if (this.state.score >= this.state.highScore) {
         this.setState({highScore:this.state.score});
@@ -55,12 +55,11 @@ class App extends React.Component {
   } 
 
   shuffleArray = (array) => {
-    let i = array.length - 1;
-    for (; i > 0; i--) {
+    for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      const temp = array[i];
+      const tempStore = array[i];
       array[i] = array[j];
-      array[j] = temp;
+      array[j] = tempStore;
     }
     return array;
   }
@@ -78,22 +77,21 @@ class App extends React.Component {
         < HeroHeader />
         
         <div className="card-container">
-          
-        {shuffledCharacters.map((character)  => (
-          <CharacterCard
-            score={this.state.score}
-            highScore={this.state.highScore}
-            clickedCharacters={this.state.clickedCharacters}
-            scoreChecker={this.scoreChecker}
-            deleteCharacter={this.deleteCharacter}
-            id={character.id}
-            key={character.id}
-            name={character.name}
-            image={character.image}
-            occupation={character.occupation}
-            location={character.location}
-          />
-        ))}
+          {shuffledCharacters.map((character)  => (
+            <CharacterCard
+              score={this.state.score}
+              highScore={this.state.highScore}
+              clickedCharacters={this.state.clickedCharacters}
+              scoreChecker={this.scoreChecker}
+              deleteCharacter={this.deleteCharacter}
+              id={character.id}
+              key={character.id}
+              name={character.name}
+              image={character.image}
+              occupation={character.occupation}
+              location={character.location}
+            />
+          ))}
         </div>
         <Footer/>
       </Wrapper>

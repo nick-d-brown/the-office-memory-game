@@ -8,10 +8,19 @@
  background-position: bottom;
  height: 570px;
  width: 100%;
+ display: flex;
+ justify-content: center;
 }
 
 .hero-content {
   color: white;
   position: relative; 
-  top: 50px;
+  top: 65%;
+  background-color: rgba(0, 0, 0, 0.799);
+  width: 50%;
+  height: 175px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

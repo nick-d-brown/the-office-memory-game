@@ -11,7 +11,6 @@ const NavBar = props => (
       <p>Score: {props.score}</p>
       <p>High Score: {props.highScore}</p>
     </div>
-
   </div>
 );
 
