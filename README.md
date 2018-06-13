@@ -7,12 +7,12 @@ A React based web application utilizing frontend styling and JavaScript Logic to
 
   
 
-### [1-Description](https://github.com/nick-d-brown/ksl-jobs-scraper#1-description-page_facing_up)
-### [2-Technologies](https://github.com/nick-d-brown/ksl-jobs-scraper#2-technologies--computer)
-### [3-Challenges](https://github.com/nick-d-brown/ksl-jobs-scraper#3-challenges-screamboom)
-### [4-Issues](https://github.com/nick-d-brown/ksl-jobs-scraper#4-issues-questionexclamation)
-### [5-Desired Features](https://github.com/nick-d-brown/ksl-jobs-scraper#5-desired-features-star2)
-### [6-Contributors](https://github.com/nick-d-brown/ksl-jobs-scraper#6-contributors-raised_hands)
+### [1-Description](https://github.com/nick-d-brown/the-office-memory-game#1-description-page_facing_up)
+### [2-Technologies](https://github.com/nick-d-brown/the-office-memory-game#2-technologies--computer)
+### [3-Challenges](https://github.com/nick-d-brown/the-office-memory-game#3-challenges-screamboom)
+### [4-Issues](https://github.com/nick-d-brown/the-office-memory-game#4-issues-questionexclamation)
+### [5-Desired Features](https://github.com/nick-d-brown/the-office-memory-game#5-desired-features-star2)
+### [6-Contributors](https://github.com/nick-d-brown/the-office-memory-game#6-contributors-raised_hands)
 
  ---
 
@@ -26,7 +26,7 @@ One of the problems with searching for a job in web development is the number of
 
 
 
-![Main Page](https://github.com/nick-d-brown/ksl-jobs-scraper/blob/master/public/assets/images/kslScraper.png)
+![Main Page](https://github.com/nick-d-brown/the-office-memory-game/blob/master/images/theOfficeMemoryGame.png)
 
 
 
@@ -40,12 +40,10 @@ One of the problems with searching for a job in web development is the number of
 
 
 - HTML
-    -HTML5 Drag and Drop API
 - CSS
     -CSS Flexbox
 - Vanilla JavaScript
-- [jQuery](https://jquery.com/)
-- [Node.js](https://nodejs.org/en/)
+- [React.js](https://reactjs.org/)
 
 ---
 
@@ -53,26 +51,21 @@ One of the problems with searching for a job in web development is the number of
 
 > **Note:** This section is meant for beginners an idea of what the *crux* technology was for this project. Ideally by seeing this first they will be able tackle the hard problem first to start the learning/absorption process as soon as possible.
 
-The main challenges encountered with this project were primarily working with mongoose and developing an efficient and effective API structure.
+The main challenge when working with this project was getting a handle on React. Being such a large and powerful framework it took a little digging to begin to understand things. That being said, I am seeming to have a much better grasp on the concepts than when I started (though I am definitely still learning).
 
 Use the links listed below to learn more about the technology and remember **you will eventually learn how everything works!**
 
 ---**Suggested Links**---
 
-- [MongoDB Docs](https://docs.mongodb.com/)
-- [Mongoose Docs](http://mongoosejs.com/)
-- [Handlebars.js Docs Docs](https://handlebarsjs.com/)
+- [React.js Docs](https://reactjs.org/docs/hello-world.html)
+
 
 
 
 
 ### 4-Issues :question::exclamation:
 
-1.	Comment delete button functionality and API route 
-2.	Improving API structure
-
-
-  Currently the known issues are listed above. If you find an issue please submit it using the issues tab, or contact [Nick Brown](https://github.com/nick-d-brown/).
+  Currently there are no known issues with associated with this project. If you find an issue please submit it using the issues tab, or contact [Nick Brown](https://github.com/nick-d-brown/).
 
 ---
 
@@ -96,4 +89,4 @@ Use the links listed below to learn more about the technology and remember **you
 ---
 
 ## Thanks for visiting!
-### [Top of Page](https://github.com/nick-d-brown/ksl-jobs-scraper)
+### [Top of Page](https://github.com/nick-d-brown/the-office-memory-game)
