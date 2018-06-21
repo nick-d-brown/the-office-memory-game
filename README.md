@@ -18,7 +18,7 @@ A React based web application utilizing frontend styling and JavaScript Logic to
 
 ### 1-Description :page\_facing\_up:
 
-One of the problems with searching for a job in web development is the number of different titles your new job could fall under. The KSL Job Scraper is here to solve that problem. At one click of a button you are able to scrape the KSL Jobs website for different web development positions. When you find a position you like, simply click the save button to add it to the saved page. You can also delete positions you are not interested in. On the saved page there is the ability to add notes that are associated with each position. 
+If You enjoy the office, then you will enjoy this app! Sharpen your memory skills by playing this memory game! Simply click on the character cards to increase your score. Try your best to beat your high score, but be careful not to click on any card twice...
 
 
 > **Note:** Below are three gifs to showcase the working project.
